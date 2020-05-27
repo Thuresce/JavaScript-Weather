@@ -11,6 +11,10 @@
               document.write(position.coords.latitude  + ", " +position.coords.longitude) 
               })
               
+    function(position) 
+       const proxy = 'https://cors-anywhere.herokuapp.com'
+       const API = "htttps://api.darksky.net/forecast/" 
+              
            </script>
         </body>
         </html>
