@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html lang="en">
-     <head>
-          <title>geolocation</title>
- </head>
- <body>
-     <script>
+  <html lang="en">
+  <head>
+  <title>geolocation</title>
+  </head>
+  <body>
+  <script>
      
-        navigator.geolocation.getCurrentPosition(function(position)  {
-              document.write(position.coords.latitude  + ", " +position.coords.longitude) 
-              })
+  navigator.geolocation.getCurrentPosition(function(position)  {
+  document.write(position.coords.latitude  + ", " +position.coords.longitude) 
+  })
               
-    function(position) 
-       const proxy = 'https://cors-anywhere.herokuapp.com'
-       const API = "htttps://api.darksky.net/forecast/" 
+  function(position) 
+  const proxy = 'https://cors-anywhere.herokuapp.com'
+  const API = "htttps://api.darksky.net/forecast/" 
        
-    const today = new Date ()
-      const time = today.getHours () + ":" + today.getMinutes () ":"
+  const today = new Date ()
+  const time = today.getHours () + ":" + today.getMinutes () ":"
               
-           </script>
-        </body>
-        </html>
+  </script>
+  </body>
+  </html>
