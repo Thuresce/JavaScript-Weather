@@ -14,6 +14,9 @@
     function(position) 
        const proxy = 'https://cors-anywhere.herokuapp.com'
        const API = "htttps://api.darksky.net/forecast/" 
+       
+    const today = new Date ()
+      const time = today.getHours () + ":" + today.getMinutes () ":"
               
            </script>
         </body>
